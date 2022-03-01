@@ -30,13 +30,26 @@ aside{
     height: 100vh;
     width: 20%;
     display: flex;
-    justify-self: center;
-    align-items: center;
+    flex-direction: column;
+    /* justify-self: center;
+    align-items: center; */
     background-color: rgb(89, 167, 231);
     padding: 3%;
     list-style: none;
 }
 aside img{
-    height: 30%;
-    width: 30%;
+    height: 100%;
+    width: 100%;
+}
+.photo{
+    border: 1px solid black;;
+    margin-top: 10%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.skills {
+    justify-content: center;
+    align-items: center;
 }
