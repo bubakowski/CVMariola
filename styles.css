@@ -20,7 +20,7 @@ box-sizing: border-box;
 .main{
     height: 100vh;
     width: 30%;
-    padding-left: 50px;
+    padding: 0 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
